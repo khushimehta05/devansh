@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         obj.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(MainActivity.this, login_page.class));
+                startActivity(new Intent(MainActivity.this, homescreen.class));
                 finish();
             }
         }, 1000);

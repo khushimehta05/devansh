@@ -45,8 +45,8 @@ public class login_page extends AppCompatActivity {
         @Override
         public void onClick(View view) {
 
-            spe = sp.edit();
-            txt_email =
+//            spe = sp.edit();
+//            txt_email =
 
         }
     });

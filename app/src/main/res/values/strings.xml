@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">devansh</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="hi_demo">Hi Demo</string>
+    <string name="choose_what_to_eat">Choose what to eat</string>
+    <string name="menu">Menu</string>
+    <string name="see_all">See All</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
 </resources>
