@@ -13,10 +13,10 @@
         android:theme="@style/Theme.Devansh"
         tools:targetApi="31">
         <activity
-            android:name=".menupage"
+            android:name=".home_screen"
             android:exported="false" />
         <activity
-            android:name=".home_screen"
+            android:name=".menupage"
             android:exported="false" />
         <activity
             android:name=".signin_page"
