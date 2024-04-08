@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".home_screen">
-
-
-    <ImageButton
-        android:layout_width="67dp"
-        android:layout_height="58dp"
-        android:background="@drawable/img_4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:contentDescription="@string/todo" />
 
     <ImageButton
         android:layout_width="61dp"
@@ -100,7 +85,7 @@
         android:id="@+id/imageButton3"
         android:layout_width="134dp"
         android:layout_height="134dp"
-        android:background="@drawable/img_7"
+        android:background="@drawable/chinese"
         tools:layout_editor_absoluteX="218dp"
         tools:layout_editor_absoluteY="214dp"
         tools:ignore="MissingConstraints"
@@ -110,7 +95,7 @@
         android:id="@+id/imageButton4"
         android:layout_width="134dp"
         android:layout_height="134dp"
-        android:background="@drawable/img_8"
+        android:background="@drawable/gujarati"
         tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="364dp"
         tools:ignore="MissingConstraints"
@@ -120,7 +105,7 @@
         android:id="@+id/imageButton5"
         android:layout_width="134dp"
         android:layout_height="134dp"
-        android:background="@drawable/img_9"
+        android:background="@drawable/sizzler"
         tools:layout_editor_absoluteX="218dp"
         tools:layout_editor_absoluteY="364dp"
         tools:ignore="MissingConstraints"
@@ -147,24 +132,19 @@
         tools:ignore="MissingConstraints"
         android:contentDescription="@string/todo7" />
 
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vp"
         android:layout_width="wrap_content"
-        android:layout_height="550dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintHorizontal_weight="1"
-        app:menu="@menu/menu"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="649dp"
+        android:layout_height="650dp"
         tools:ignore="MissingConstraints" />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu"
+        tools:ignore="MissingConstraints"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
