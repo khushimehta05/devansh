@@ -12,126 +12,131 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:layout_width="410dp"
-            android:layout_height="300dp"
+            android:layout_width="420dp"
+            android:layout_height="258dp"
             android:background="@drawable/event_table"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteX="-4dp"
             tools:layout_editor_absoluteY="0dp" />
 
-        <ImageButton
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="16dp"
-            android:background="@drawable/arrow"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="7dp" />
 
-
-        <ImageView
-            android:layout_width="600dp"
-            android:layout_height="400dp"
-            android:src="@drawable/rectangle"
+        <androidx.cardview.widget.CardView
+            android:layout_width="293dp"
+            android:layout_height="440dp"
+            android:padding="10dp"
+            app:cardCornerRadius="25sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="309dp" />
+            tools:layout_editor_absoluteY="266dp">
 
-        <EditText
-            android:id="@id/editText"
-            android:layout_width="225dp"
-            android:layout_height="50dp"
-            android:background="@drawable/edit_text"
-            android:hint="Enter Name"
-            android:textAlignment="center"
-            android:textSize="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="285dp"
+                android:layout_height="match_parent">
 
-        <EditText
-            android:id="@id/editText"
-            android:layout_width="225dp"
-            android:layout_height="50dp"
-            android:background="@drawable/edit_text"
-            android:hint="Enter Phone Number"
-            android:textAlignment="center"
-            android:textSize="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.587" />
+                <EditText
+                    android:id="@id/editText"
+                    android:layout_width="225dp"
+                    android:layout_height="41dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/edit_text"
+                    android:hint="Enter Name"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@id/editText"
-            android:layout_width="225dp"
-            android:layout_height="50dp"
-            android:background="@drawable/edit_text"
-            android:hint="Enter Address"
-            android:textAlignment="center"
-            android:textSize="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.681" />
+                <EditText
+                    android:id="@id/editText"
+                    android:layout_width="225dp"
+                    android:layout_height="41dp"
+                    android:background="@drawable/edit_text"
+                    android:hint="Enter Phone Number"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="78dp" />
 
-        <EditText
-            android:id="@id/editText"
-            android:layout_width="225dp"
-            android:layout_height="50dp"
-            android:background="@drawable/edit_text"
-            android:hint="Enter Your Event"
-            android:textAlignment="center"
-            android:textSize="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.771" />
+                <EditText
+                    android:id="@id/editText"
+                    android:layout_width="225dp"
+                    android:layout_height="41dp"
+                    android:background="@drawable/edit_text"
+                    android:hint="Enter Address"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="136dp" />
 
-        <EditText
-            android:id="@id/editText"
-            android:layout_width="225dp"
-            android:layout_height="50dp"
-            android:background="@drawable/edit_text"
-            android:hint="Enter Number people"
-            android:textAlignment="center"
-            android:textSize="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.864" />
 
-        <EditText
-            android:id="@id/editText"
-            android:layout_width="225dp"
-            android:layout_height="50dp"
-            android:background="@drawable/edit_text"
-            android:hint="Enter Event Date"
-            android:textAlignment="center"
-            android:textSize="20dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.951" />
+                <EditText
+                    android:id="@id/editText"
+                    android:layout_width="225dp"
+                    android:layout_height="41dp"
+                    android:background="@drawable/edit_text"
+                    android:hint="Enter Your Event"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="192dp" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button"
-            android:layout_width="150dp"
+                <EditText
+                    android:id="@id/editText"
+                    android:layout_width="225dp"
+                    android:layout_height="41dp"
+                    android:background="@drawable/edit_text"
+                    android:hint="Enter Number people"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="249dp" />
+
+                <EditText
+                    android:id="@id/editText"
+                    android:layout_width="225dp"
+                    android:layout_height="41dp"
+                    android:background="@drawable/edit_text"
+                    android:hint="Enter Event Date"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:layout_editor_absoluteY="310dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:background="@drawable/button"
+                    android:text="Book Event"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="492dp"
-            android:background="@drawable/button"
-            android:text="Continue"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="Book Your Event"
+            android:textColor="@color/white"
+            android:textSize="32dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.448"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="92dp" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
